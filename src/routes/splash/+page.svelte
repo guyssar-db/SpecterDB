@@ -62,8 +62,8 @@
 							}
 						} catch (err) {
 							console.error('Update check failed:', err);
-							status = 'UPDATE SERVER UNREACHABLE. CONTINUING...';
-							await new Promise((resolve) => setTimeout(resolve, 800));
+							status = `ERROR: ${err}. CONTINUING...`;
+							await new Promise((resolve) => setTimeout(resolve, 3000));
 						}
 						checkingUpdate = false;
 					}

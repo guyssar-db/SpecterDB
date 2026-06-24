@@ -1,11 +1,11 @@
 {
-  "version": "0.1.6",
-  "notes": "Update Window Title to display SpecterDB (version) - theme format",
-  "pub_date": "2026-06-25T01:25:00Z",
+  "version": "0.1.7",
+  "notes": "Add detailed error tracking on splash screen",
+  "pub_date": "2026-06-25T01:35:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMWpOTTZXODhWbWRrQ3ljYm9GMzUvTDBSZ1FwZWdCdWwzS2NROHhpOFdNcWphdVdrT21udmFtUU5sMytZYmhyYytqUWQ1cmZMNnhIenBlZ2o3LzhldTNhNWdpVlJGdFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzI5NTkzCWZpbGU6U3BlY3RlckRCXzAuMS42X3g2NF9lbi1VUy5tc2kKZUlFYTd5Y1RwWXhKU1libis0Z3Y0ZU1IMnR3MXhOa2czb0I3MmhTYjFzMVowRVpJZ3gzaHBHYU1PNU1LWjREb1d2cVNXNldhNllWYnArQnJhbzVzQUE9PQo=",
-      "url": "https://github.com/guyssar-db/SpecterDB/releases/download/v0.1.6/SpecterDB_0.1.6_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMWpOTTZXODhWbWJhSjB6SXlCc2I5NUJrVG9kaERncWxRVmlGN1poNGhaWi95VW1oWW1JSm9iRW5NbmorTEFmZC9ITHR6cEg4SnowQm1OVHpXM2dUVXBsYnFjaHdPeGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzI2MTcyCWZpbGU6U3BlY3RlckRCXzAuMS43X3g2NF9lbi1VUy5tc2kKeXpjVnhiTEd4ZmUxcjRBZS9yczk3Nm1KSVJSYlpvMnNXMk9CMWUxeVVHZm9yZ3htRFlaSE1SWGxRNDNCTUY4VFZMeUE0eHVDTThnbDUvcVZSTXFEQnc9PQo=",
+      "url": "https://github.com/guyssar-db/SpecterDB/releases/download/v0.1.7/SpecterDB_0.1.7_x64_en-US.msi"
     }
   }
 }
