@@ -1,0 +1,61 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "SpecterDB",
+  "version": "0.1.0",
+  "identifier": "com.specterdb.app",
+  "build": {
+    "frontendDist": "../build",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "SpecterDB",
+        "width": 1000,
+        "height": 750,
+        "resizable": true,
+        "fullscreen": false,
+        "visible": false
+      },
+      {
+        "label": "splashscreen",
+        "title": "SpecterDB Launcher",
+        "width": 450,
+        "height": 350,
+        "resizable": false,
+        "fullscreen": false,
+        "decorations": false,
+        "transparent": true,
+        "url": "/splash"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "android": {
+      "debugApplicationIdSuffix": ".debug"
+    }
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "https://github.com/guyssar-db/SpecterDB/releases/latest/download/latest.json"
+      ],
+      "pubkey": "dGF1cmlfc2lnbmVyX3BsYWNlaG9sZGVyX2FjdHVhbF9rZXlfd2lsbF9iZV9nZW5lcmF0ZWRfbGF0ZXI="
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+
+# SvelteKit build output and local directories
+.svelte-kit/
+build/
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# OS system files
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
