@@ -1,0 +1,11 @@
+{
+  "version": "0.1.3",
+  "notes": "Fix splashscreen dynamic updater imports and update back buttons",
+  "pub_date": "2026-06-25T01:00:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMWpOTTZXODhWbVV6cmhzNGwvUktlVnhxQnBsMkxITVIwWmpJSVRuMjBQTzlZWnBlVytFcStQWU83Qzg2bTdraEtuWVZBaGVHRmFXRzZ5MWVOSmtZWGg5azg2SlRsMHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzIzNzc4CWZpbGU6U3BlY3RlckRCXzAuMS4zX3g2NF9lbi1VUy5tc2kKd3pwK1pTa0oreEl4YndpMlVLd0dxbDZDUk1mSUJmTUdFNDllaStiaDdqYzJJK3BDNTI4ZndyUlhOYWZwWmRBTkljVHpyRTBHcFlJQ09QOFJqTWtNQ1E9PQo=",
+      "url": "https://github.com/guyssar-db/SpecterDB/releases/download/v0.1.3/SpecterDB_0.1.3_x64_en-US.msi"
+    }
+  }
+}
