@@ -17,3 +17,7 @@ Thumbs.db
 
 # Log files
 *.log
+
+# Local documentation & secrets
+HowTo.md
+
