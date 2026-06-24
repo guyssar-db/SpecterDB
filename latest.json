@@ -1,11 +1,11 @@
 {
-  "version": "0.1.5",
-  "notes": "Fix splashscreen capabilities permission and dynamic updater imports",
-  "pub_date": "2026-06-25T01:13:00Z",
+  "version": "0.1.6",
+  "notes": "Update Window Title to display SpecterDB (version) - theme format",
+  "pub_date": "2026-06-25T01:25:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMWpOTTZXODhWbWFQSGo2ajUrVzlqOEJUalF5dE5TMkc1ZEZ2azkrTjhQZDhVVHVpeThKNGJyL2V5NEJwdUEvR3lkUnZsSHNrNXcvcWpwMGtDQm4vWVV5cWpPaFkrekF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzI0ODM2CWZpbGU6U3BlY3RlckRCXzAuMS41X3g2NF9lbi1VUy5tc2kKWE1VTkVaSFZPblk1bkw4ZnpsSXdPc1FWeW54b0NwRWlwWHQrQ284M2VWN2xtb2luQVUzcGhCQ2tMNkVrOUJSdDA5Q1RxYjk3aFZoYkJQVktUZU5pQlE9PQo=",
-      "url": "https://github.com/guyssar-db/SpecterDB/releases/download/v0.1.5/SpecterDB_0.1.5_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMWpOTTZXODhWbWRrQ3ljYm9GMzUvTDBSZ1FwZWdCdWwzS2NROHhpOFdNcWphdVdrT21udmFtUU5sMytZYmhyYytqUWQ1cmZMNnhIenBlZ2o3LzhldTNhNWdpVlJGdFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzI5NTkzCWZpbGU6U3BlY3RlckRCXzAuMS42X3g2NF9lbi1VUy5tc2kKZUlFYTd5Y1RwWXhKU1libis0Z3Y0ZU1IMnR3MXhOa2czb0I3MmhTYjFzMVowRVpJZ3gzaHBHYU1PNU1LWjREb1d2cVNXNldhNllWYnArQnJhbzVzQUE9PQo=",
+      "url": "https://github.com/guyssar-db/SpecterDB/releases/download/v0.1.6/SpecterDB_0.1.6_x64_en-US.msi"
     }
   }
 }
