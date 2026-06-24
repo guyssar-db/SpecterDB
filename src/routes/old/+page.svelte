@@ -46,6 +46,7 @@
 		selectedTypes.set(Object.keys(ghostData));
 		includeEvidence.set(new Set());
 		excludeEvidence.set(new Set());
+		hiddenGhosts.set(new Set());
 	}
 
 	// Svelte 5 runes compatibility or reactive statement
