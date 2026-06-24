@@ -55,7 +55,7 @@
       "endpoints": [
         "https://github.com/guyssar-db/SpecterDB/releases/latest/download/latest.json"
       ],
-      "pubkey": "dGF1cmlfc2lnbmVyX3BsYWNlaG9sZGVyX2FjdHVhbF9rZXlfd2lsbF9iZV9nZW5lcmF0ZWRfbGF0ZXI="
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDk5MTVDRjVCM0FEMzhDQjUKUldTMWpOTTZXODhWbWVpVkYxYnplenJRcnEzS3B1UDJ0ZUpxTXpPQ0JwdDZhYVRJY3hmRWVKMUQK"
     }
   }
 }
