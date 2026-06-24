@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { check } from '@tauri-apps/plugin-updater';
+	import { relaunch } from '@tauri-apps/plugin-process';
 
 	let status = $state('INITIALIZING TELEMETRY SYSTEM...');
 	let progress = $state(0);
@@ -39,7 +41,6 @@
 						checkingUpdate = true;
 						status = 'CHECKING FOR NEW RELEASES (REAL-TIME)...';
 						try {
-							const { check } = await import('@tauri-apps/plugin-updater');
 							const update = await check();
 							if (update) {
 								status = `NEW RELEASE v${update.version} FOUND. DOWNLOADING...`;
@@ -53,22 +54,25 @@
 									}
 								});
 								status = 'APPLYING PATCHES. RELAUNCHING...';
-								const { relaunch } = await import('@tauri-apps/plugin-process');
 								await relaunch();
 								return;
 							} else {
-								status = 'COMPARING LOCAL CONFIG: v3.0.0... UP-TO-DATE';
+								status = 'COMPARING LOCAL CONFIG... UP-TO-DATE';
+								await new Promise((resolve) => setTimeout(resolve, 800));
 							}
 						} catch (err) {
 							console.error('Update check failed:', err);
 							status = 'UPDATE SERVER UNREACHABLE. CONTINUING...';
+							await new Promise((resolve) => setTimeout(resolve, 800));
 						}
 						checkingUpdate = false;
 					}
 				}
 
 				progress = Math.min(progress + increment, 100);
-				status = steps[currentStep];
+				if (currentStep !== 3) {
+					status = steps[currentStep];
+				}
 			} else {
 				clearInterval(interval);
 				finishBoot();
